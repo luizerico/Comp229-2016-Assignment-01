@@ -11,7 +11,7 @@ namespace Assignment01
 {
 
 
-    public partial class About
+    public partial class Resume
     {
     }
 }

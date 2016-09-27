@@ -1,0 +1,36 @@
+﻿/*
+    File Name:      Resume.aspx
+    Author:         Luiz Almeida     
+    Student ID:     300912056
+    Creation Date:  26/09/2016
+
+    General CSS - Defines the styles to the common elements in all pages. Style to specific elements
+    will be in separated files.
+*/
+body {
+}
+
+/* 
+    Turn the login and register bar invisible since this first version
+    doesnt include this feature. I keep it to future application releases.
+    Avoid waste data link. Avoid useless comments like this one ;)
+*/
+.navbar-right {
+    visibility: hidden !important;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+}
+
+.resumeheader {
+    padding: 30px 0px 0px 30px;
+    background-color: #ededed;
+    border: 1px double #ccc;
+    border-radius: 5px;
+}
+
