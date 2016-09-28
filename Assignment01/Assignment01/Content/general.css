@@ -27,10 +27,88 @@ body {
     border-radius: 50%;
 }
 
+.resume .row {
+    margin: 0px ;
+    padding: 10px;
+}
+
+@media screen and (min-width: 900px) {
+
+    .resume {
+        padding: 20px 150px 0 150px;
+    }
+
+    .resumeheader img {
+        display: block;
+        float: left !important;
+    }
+
+}
+
+.resumeheader h2{
+    text-align: center;
+}
+
 .resumeheader {
-    padding: 30px 0px 0px 30px;
-    background-color: #ededed;
+    padding: 30px !important;
+    background-color: #ededed !important;
     border: 1px double #ccc;
+    border-radius: 10px;
+    text-align: center !important;
+}
+
+.resumeheader p {
+    padding: 10px;
+    text-align: justify ;
+}
+
+.resumeheader img {
+    display: block;
+    float: inherit;
     border-radius: 5px;
+    margin: 10px;
+    max-width: 150px;
+}
+
+.resume .date_latestworks {
+    font-weight: 500;
+    font-style: italic;
+    display: block;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    display: block;
+    width: 60%;
+    background-color: #CCC;
+    border: 2px solid #FFF;  
+    border-radius:  10px;
+    padding: 15px !important;
+    margin: 0 auto;
+    z-index: -1;
+    text-align: center !important;
+    font-weight: 500 !important;
+}
+
+.mission {
+    display: block;
+    width: 80% auto;
+    background-color: #FFF;
+    border: 2px solid #CCC;  
+    border-radius:  10px; 
+    margin-top: -15px; 
+    padding: 15px !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+}
+
+.social {
+    display: block;
+    float: left;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 50%;
+
 }
 
