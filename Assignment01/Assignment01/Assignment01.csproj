@@ -197,7 +197,14 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Asset\facebook.png" />
+    <Content Include="Asset\facebook.svg" />
+    <Content Include="Asset\googleplus.png" />
+    <Content Include="Asset\googlePlus.svg" />
+    <Content Include="Asset\linkedin.png" />
+    <Content Include="Asset\linkedin.svg" />
     <Content Include="Contact.aspx" />
+    <Content Include="Contact_old.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -377,6 +384,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_old.aspx.cs">
+      <DependentUpon>Contact_old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_old.aspx.designer.cs">
+      <DependentUpon>Contact_old.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

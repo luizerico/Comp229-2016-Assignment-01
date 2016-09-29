@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Assignment01
 {
-    public partial class Contact1 : System.Web.UI.Page
+    public partial class Contact : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void submit_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Default.aspx");
         }
     }
 }

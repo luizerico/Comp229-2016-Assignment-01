@@ -6,8 +6,7 @@
         <div class="jumbotron">
             <img src="Content/images/hercules.jpg" alt="A heroic image" title="A heroic image" />
             <h2>Luiz Almeida</h2>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.  </p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+            <p class="lead"> Doing 12 works to reach an olympian position among the gods of coding.</p>
         </div>
     </div>
     <div class="row">
@@ -15,7 +14,6 @@
             <h2>Developer</h2>
             <p>
                 ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
             </p>
             <p>
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>

@@ -10,7 +10,16 @@
 namespace Assignment01 {
     
     
-    public partial class Contact1 {
+    public partial class Contact {
+        
+        /// <summary>
+        /// contact_form control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm contact_form;
         
         /// <summary>
         /// label_name control.
@@ -65,14 +74,5 @@ namespace Assignment01 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox message;
-        
-        /// <summary>
-        /// submit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submit;
     }
 }
