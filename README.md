@@ -1,2 +1,2 @@
-# Comp229-2016-Assignment-01
+# Comp229-Assign01
 Personal Site
